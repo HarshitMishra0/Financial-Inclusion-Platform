@@ -1,0 +1,86 @@
+/* In your src/components/MobileWalletPage.css file */
+
+.mobile-wallet-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+header h1 {
+  color: #3498db;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+.payment-info {
+  margin-top: 20px;
+}
+
+.wallet-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.wallet-image img {
+  max-width: 200px;
+  height: auto;
+}
+
+.wallet-description {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.benefits {
+  margin-top: 40px;
+}
+
+.benefits h2 {
+  color: #3498db;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.benefits ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}

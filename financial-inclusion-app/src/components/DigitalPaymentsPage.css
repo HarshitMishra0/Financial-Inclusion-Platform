@@ -1,0 +1,76 @@
+/* In your src/components/DigitalPaymentsPage.css file */
+
+.digital-payments-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+header h1 {
+  color: #3498db;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.payment-card {
+  flex: 0 1 calc(50% - 20px);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  color: #333;
+}
+
+.payment-card:hover {
+  transform: scale(1.05);
+}
+
+.payment-card h2 {
+  color: #3498db;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.payment-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}

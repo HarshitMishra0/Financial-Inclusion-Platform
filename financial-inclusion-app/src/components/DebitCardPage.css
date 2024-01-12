@@ -1,0 +1,48 @@
+/* In your src/components/DebitCardPage.css file */
+
+.debit-card-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px; /* Add padding for spacing */
+}
+
+header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+.payment-info {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
